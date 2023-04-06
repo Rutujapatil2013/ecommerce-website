@@ -11,7 +11,6 @@ import AllItems from './component/AllItems';
 import SingleProduct from './component/SingleProduct';
 import ProductList from './component/ProductList';
 
-
 // slider array images
 function App() {
   const slides = [
