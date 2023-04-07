@@ -1,17 +1,17 @@
 import React,{createContext, useReducer} from "react";
 import { data } from "./Data"; 
 import './Cart.css';
-import CartContext from "./CartContext";
+// import CartContext from "./CartContext";
 import {reducer } from "./Reducer";
 // import { initialState } from "react-use-cart";
 
 export const ContextCart = createContext();
 
-const initialState = {
-    item: data,
-    totalAmount: 0,
-    totalItem: 0,
-};
+// const initialState = {
+//     item: data,
+//     totalAmount: 0,
+//     totalItem: 0,
+// };
 
 const Cart = () => {
 
@@ -51,7 +51,7 @@ const decrement =(id) => {
     return(
         <>
         <ContextCart.Provider value={{...state, deleteItem, increment, decrement}}>
-        <CartContext />
+        {/* <CartContext /> */}
         </ContextCart.Provider>
         </>
         

@@ -6,6 +6,7 @@ import Footer from './component/Footer';
 import Product from './component/Product';
 import Header from './component/Header';
 import List from './component/List';
+import Cart from './component/Cart';
 import { Route, Routes } from 'react-router-dom';
 import AllItems from './component/AllItems';
 import SingleProduct from './component/SingleProduct';
